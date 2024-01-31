@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/nfaciano/public_html/
+    - export DEPLOYPATH=/home2/nfaciano/public_html/
     - /bin/cp -R * $DEPLOYPATH
