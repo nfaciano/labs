@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', function() {
     // Assumes your images have IDs 'don-quixote-img', 'a-tale-of-two-cities-img', 'the-lord-of-the-rings-img'
     const bookImages = [
         { id: 'don-quixote-img', filePath: 'data/cervantes-data.html' },
-        { id: 'a-tale-of-two-cities-img', filePath: 'data/dickens-data.html' },
-        { id: 'the-lord-of-the-rings-img', filePath: 'data/tolkien-data.html' }
+        { id: 'two-cities-img', filePath: 'data/dickens-data.html' },
+        { id: 'lotr-image', filePath: 'data/tolkien-data.html' }
     ];
 
     bookImages.forEach(book => {
