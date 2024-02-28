@@ -9,7 +9,7 @@ $(document).ready(function() {
     $('#don-quixote-img').click(function() {
         adjustImageOpacity('don-quixote-img');
         $('#details').fadeOut(function() {
-            $(this).load('https://nfaciano.rhody.dev/lab5/data/cervantes-data.html', function() {
+            $(this).load('https://nfaciano.rhody.dev/labs2/data/cervantes-data.html', function() {
                 $(this).fadeIn('slow'); // Ensure you replace the URL with the correct path to your HTML file
             });
         });
@@ -19,7 +19,7 @@ $(document).ready(function() {
     $('#two-cities-img').click(function() {
         adjustImageOpacity('two-cities-img');
         $('#details').fadeOut(function() {
-            $(this).load('https://nfaciano.rhody.dev/lab5/data/dickens-data.html', function() {
+            $(this).load('https://nfaciano.rhody.dev/labs2/data/dickens-data.html', function() {
                 $(this).fadeIn('slow'); // Ensure you replace the URL with the correct path to your HTML file
             });
         });
@@ -29,7 +29,7 @@ $(document).ready(function() {
     $('#lotr-img').click(function() {
         adjustImageOpacity('lotr-img');
         $('#details').fadeOut(function() {
-            $(this).load('https://nfaciano.rhody.dev/lab5/data/tolkien-data.html', function() {
+            $(this).load('https://nfaciano.rhody.dev/labs2/data/tolkien-data.html', function() {
                 $(this).fadeIn('slow'); // Ensure you replace the URL with the correct path to your HTML file
             });
         });
